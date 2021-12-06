@@ -25,7 +25,7 @@ nav{
     left: 0;
     margin: 0;
     width: 100%;
-    background: #581b98;
+    background: #112F38;
     padding: 2em 0;
     font-size: .75rem;
 }
@@ -53,7 +53,7 @@ nav ul li a:hover{
 }
 
 h1, h2, h3, blockquote{
-    color: #581b98;
+    color: #112F38;
 }
 
 p, blockquote{
@@ -97,7 +97,7 @@ header p {
 }
 
 .dark{
-    background: #581b98;
+    background: #112F38;
     padding: .5rem 0 .5rem;
 }
 
@@ -166,4 +166,10 @@ footer p{
 
 img{
     margin-bottom: 2rem;
+}
+
+hr{
+    background-color: #112f3844;
+    height: 2px;
+    border: none;
 }
