@@ -173,3 +173,7 @@ hr{
     height: 2px;
     border: none;
 }
+
+.dropcap{
+    font-size: 3rem;
+}
