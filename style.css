@@ -60,16 +60,17 @@ p, blockquote{
     margin-bottom: 1.5rem;
     line-height: 1.5;
     font-family: 'Helvetica', sans-serif;
+    text-align: justify;
 }
 
 h1{
     font-size: 5.653rem;
-    margin-top: 1em;
+    margin-top: .5em;
 }
 
 h2, h3{
     font-size: 1.999rem;
-    margin: 3em 0 1em 0;
+    margin: 2em 0 1em 0;
 }
 
 blockquote{
@@ -162,6 +163,7 @@ footer a{
 
 footer p{
     margin-top: 2rem;
+    text-align: center;
 }
 
 img{
@@ -175,5 +177,40 @@ hr{
 }
 
 .dropcap{
-    font-size: 3rem;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#bruno-schultz h2{
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.grid img{
+    height: 100%;
+}
+
+.background{
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first{
+    background-image: url(images/banner.jpg);
+}
+
+.second{
+    background-image: url(images/banner-2.jpg);
 }
